@@ -33,9 +33,25 @@ client.on("messageCreate", (message) => {
 
     arr.includes("") //boolean
 
+    if (arr.includes("hello"))
+    {
+        message.channel.send("Hello")
+    }
     if (arr.includes("bruh")) //i hate bruh -> true
     {
         message.channel.send("bruh");
+    }
+    if (arr.includes("daddy"))
+    {
+        message.channel.send("Not appropiate.")
+    }
+
+    if (arr.includes("fuck"))
+    {
+        if(arr.includes("band"))
+        {
+            message.channel.send("Unacceptable.")
+        }
     }
     if (arr.includes("jojo")) 
     {
@@ -71,6 +87,52 @@ client.on("messageCreate", (message) => {
     if (arr.includes(">name"))
     {
         message.channel.send("Theodore Newton.")
+    }
+    if (arr.includes(">bet"))
+    {
+        message.channel.send("How much do you want to bet over/under?")
+        {
+            if (arr.includes("1"))
+            {
+                message.channel.send("Bet 1 to 1 odds")
+            }
+            if (arr.includes("2"))
+            {
+                message.channel.send("Bet 2 to 1 odds")
+            }
+            if (arr.includes("3"))
+            {
+                message.channel.send("Bet 3 to 1 odds")
+            }
+            if (arr.includes("4"))
+            {
+                message.channel.send("Bet 4 to 1 odds")
+            }
+            if (arr.includes("5"))
+            {
+                message.channel.send("Bet 6 to 1 odds")
+            }
+            if (arr.includes("6"))
+            {
+                message.channel.send("Bet 6 to 1 odds")
+            }
+            if (arr.includes("7"))
+            {
+                message.channel.send("Bet 7 to 1 odds")
+            }
+            if (arr.includes("8"))
+            {
+                message.channel.send("Bet 8 to 1 odds")
+            }
+            if (arr.includes("9"))
+            {
+                message.channel.send("Bet 9 to 1 odds")
+            }
+            if (arr.includes("10"))
+            {
+                message.channel.send("Bet 10 to 1 odds")
+            }
+        }
     }
     if (arr.includes(">help"))
     {
